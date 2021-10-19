@@ -3,12 +3,13 @@
   display: -ms-grid;
   display: grid;
   gap: 2em;
-  width: 80%;
+  width: 90%;
   margin: 10vh auto;
 }
 
 @media screen and (min-width: 1024px) {
   .grid-layout {
+    width: 900px;
     -ms-grid-columns: (1fr)[4];
         grid-template-columns: repeat(4, 1fr);
     -ms-grid-rows: (1fr)[2];
@@ -94,6 +95,34 @@
 
 .navigation .active {
   color: white;
+}
+
+@media screen and (min-width: 1024px) {
+  #profile .profile-details {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding: 1.5em;
+    padding-bottom: 4em;
+  }
+  #profile .profile-details h1 {
+    font-size: 2em;
+  }
+  .navigation {
+    padding: 0.5em;
+  }
+  .navigation ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 1em;
+    font-size: 0.9em;
+  }
 }
 
 .card .banner {
