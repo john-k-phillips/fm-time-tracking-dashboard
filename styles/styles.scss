@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+@import 'variables';
+
+*, *::after, *::before {
+    margin: 0;
+}
+
+body {
+    font-family: $font-rubik;
+}
+
+ul, ol {
+    list-style: none;
+}
