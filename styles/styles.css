@@ -104,41 +104,46 @@
 }
 
 .card .banner img {
+  margin-right: 1.5em;
   display: block;
   margin-left: auto;
-  -o-object-position: 0px -10px;
-     object-position: 0px -10px;
+  -o-object-position: 0 -5px;
+     object-position: 0 -5px;
 }
 
-#work-banner {
+#work-banner, #work {
   background-color: #ff8c66;
 }
 
-#play-banner {
+#play-banner, #play {
   background-color: #56c2e6;
 }
 
-#study-banner {
+#study-banner, #study {
   background-color: #ff5c7c;
 }
 
-#exercise-banner {
+#exercise-banner, #exercise {
   background-color: #4acf81;
 }
 
-#social-banner {
+#social-banner, #social {
   background-color: #7536d3;
 }
 
-#self-care-banner {
+#self-care-banner, #self-care {
   background-color: #f1c65b;
+}
+
+.card {
+  border-radius: 1em;
 }
 
 .card-details {
   background-color: #1c1f4a;
   color: white;
   padding: 1.5em;
-  border-radius: 0em 0em 1em 1em;
+  border-radius: 1em;
 }
 
 .card-details .card-title {

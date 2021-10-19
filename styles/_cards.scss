@@ -6,38 +6,43 @@
         border-radius: $radius $radius 0em 0em;
         overflow: hidden;
         img {
+            margin-right: 1.5em;
             display: block;
             margin-left: auto;
-            object-position: 0px -10px;
+            object-position: 0 -5px;
         }
     }
 }
 
-#work-banner {
+#work-banner, #work {
     background-color: $clr-work;
 }
 
-#play-banner {
+#play-banner, #play {
     background-color: $clr-play;
 }
 
-#study-banner {
+#study-banner, #study {
     background-color: $clr-study;
 }
 
-#exercise-banner {
+#exercise-banner, #exercise {
     background-color: $clr-exercise;
 }
 
-#social-banner {
+#social-banner, #social {
     background-color: $clr-social;
 }
 
-#self-care-banner {
+#self-care-banner, #self-care {
     background-color: $clr-self-care;
 }
 
 // CARD DETAILS SECTION
+
+.card {
+    border-radius: $radius;
+}
 
 .card-details {
     background-color: $clr-dark-blue;
@@ -46,7 +51,7 @@
 
     padding: 1.5em;
 
-    border-radius: 0em 0em $radius $radius;
+    border-radius: $radius;
     .card-title {
         display: flex;
         align-items: center;
