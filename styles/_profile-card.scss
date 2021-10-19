@@ -46,9 +46,9 @@
         padding: 1em 1.2em;
 
         font-size: 1.1em;
-        color: $clr-unsaturated-blue;
     }
-    li {
+    a {
+        color: $clr-unsaturated-blue;
         cursor: pointer;
         &:hover, &:focus {
             color: white;

@@ -84,19 +84,19 @@
           justify-content: space-between;
   padding: 1em 1.2em;
   font-size: 1.1em;
-  color: #6f76c8;
 }
 
-.navigation li {
+.navigation a {
+  color: #6f76c8;
   cursor: pointer;
 }
 
-.navigation li:hover, .navigation li:focus {
+.navigation a:hover, .navigation a:focus {
   color: white;
   opacity: 0.8;
 }
 
-.navigation li:focus {
+.navigation a:focus {
   outline: 2px dotted white;
   padding: 0.2em;
 }
@@ -116,6 +116,10 @@ body {
 
 ul, ol {
   list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 h3 {
