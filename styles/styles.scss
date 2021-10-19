@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
 @import 'variables';
+@import 'grid';
 
 *, *::after, *::before {
     margin: 0;
@@ -7,6 +8,7 @@
 
 body {
     font-family: $font-rubik;
+    background-color: $clr-very-dark-blue;
 }
 
 ul, ol {
@@ -16,3 +18,18 @@ ul, ol {
 h3 {
     font-size: 18px;
 }
+
+img {
+    max-width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        width: 100%;
+        height: 100vh;
+        
+        display: grid;
+        place-items: center;
+    }
+}
+
