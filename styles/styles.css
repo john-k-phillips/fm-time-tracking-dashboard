@@ -26,6 +26,85 @@
   }
 }
 
+#profile {
+  background-color: #1c1f4a;
+  border-radius: 1em;
+}
+
+.profile-details {
+  padding: 1.5em;
+  background-color: #5847eb;
+  border-radius: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1.5em;
+}
+
+.profile-details .profile-picture {
+  width: 60px;
+}
+
+.profile-details .profile-picture img {
+  border: 3px solid white;
+  border-radius: 50%;
+}
+
+.profile-details .profile-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: white;
+  gap: 0.2em;
+}
+
+.profile-details .profile-name h1 {
+  font-size: 1.3em;
+  font-weight: lighter;
+}
+
+.profile-details .profile-name span {
+  opacity: 0.5;
+  font-weight: lighter;
+}
+
+.navigation ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1em 1.2em;
+  font-size: 1.1em;
+  color: #6f76c8;
+}
+
+.navigation li {
+  cursor: pointer;
+}
+
+.navigation li:hover, .navigation li:focus {
+  color: white;
+  opacity: 0.8;
+}
+
+.navigation li:focus {
+  outline: 2px dotted white;
+  padding: 0.2em;
+}
+
+.navigation .active {
+  color: white;
+}
+
 *, *::after, *::before {
   margin: 0;
 }

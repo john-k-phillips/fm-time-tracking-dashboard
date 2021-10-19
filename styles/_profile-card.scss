@@ -1,0 +1,66 @@
+#profile {
+    background-color: $clr-dark-blue;
+    border-radius: $radius;
+}
+
+.profile-details {
+    padding: 1.5em;
+
+    background-color: $clr-blue;
+    border-radius: $radius;
+
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+    .profile-picture {
+        width: 60px;
+        img {
+            border: 3px solid white;
+            border-radius: 50%;
+        }
+    }
+
+    .profile-name {
+        display: flex;
+        flex-direction: column;
+
+        color: white;
+        gap: 0.2em;
+
+        h1 {
+            font-size: 1.3em;
+            font-weight: lighter;
+        }
+        span {
+            opacity: 0.5;
+            font-weight: lighter;
+        }
+    }
+}
+
+.navigation {
+    ul {
+        display: flex;
+        justify-content: space-between;
+
+        padding: 1em 1.2em;
+
+        font-size: 1.1em;
+        color: $clr-unsaturated-blue;
+    }
+    li {
+        cursor: pointer;
+        &:hover, &:focus {
+            color: white;
+            opacity: 0.8;
+        }
+        &:focus {
+            outline: 2px dotted white;
+            padding: 0.2em;
+        }
+    }
+    .active {
+        color: white;
+    }
+}
+
